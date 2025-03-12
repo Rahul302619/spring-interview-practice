@@ -21,7 +21,7 @@ public class SingletonPrototypeScopeController {
     SingletonScopeBean1 -> prototypeScopeBean1
     So here prototypeScopeBean and prototypeScopeBean1 are different object.
     And these get created only once.
-    If we want different prototype scope bean on each and everytime execution of singletonScope Bean method than
+    If we want different prototype scope bean on each and everytime execution of singletonScope bean method than
     we need to use @Lookup annotation get new bean object by method injection.
     * */
     @GetMapping("prototype")
